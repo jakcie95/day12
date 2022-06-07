@@ -1,8 +1,12 @@
 package quiz;
 
 import java.util.Scanner;
-
+class Oven extends TimeQuiz01{
+	
+}
 public class Main {public static void main(String[] args) {
+	TimeQuiz01 tq = new TimeQuiz01();
+	tq.print();
 	Test t = new Test();
 	OvenFunc oven = new OvenFunc();
 	TimerFunc tf = new TimerFunc();
